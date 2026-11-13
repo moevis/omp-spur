@@ -107,7 +107,9 @@ const COOLDOWN_NEW_FILES = 3;
 const MIN_PARALLEL_AGENTS = 2;
 ```
 
-Edit them, then start a new session. The reminder text names the dsv4 model (`mp-tob/deepseek-v4.1-flash-tob`); change that string if your environment uses a different model or role alias.
+Edit them, then start a new session.
+
+The rule and the reminder both hardcode the dsv4 model id `mp-tob/deepseek-v4.1-flash-tob`. That id is specific to this provider setup; outside this environment, replace it in both `rules/spur.md` and `index.ts` with your own model or role alias (for example `@task`).
 
 ## Development
 
