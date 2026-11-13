@@ -1,0 +1,24 @@
+{
+  "name": "omp-spur",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Deterministic OMP reminder to parallelize independent work across dsv4 subagents.",
+  "type": "module",
+  "keywords": [
+    "omp",
+    "plugin",
+    "subagents",
+    "parallelism"
+  ],
+  "homepage": "https://github.com/moevis/omp-spur",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moevis/omp-spur.git"
+  },
+  "bugs": {
+    "url": "https://github.com/moevis/omp-spur/issues"
+  },
+  "omp": {
+    "extensions": ["./index.ts"]
+  }
+}
