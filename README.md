@@ -107,7 +107,7 @@ const COOLDOWN_NEW_FILES = 3;
 const MIN_PARALLEL_AGENTS = 2;
 ```
 
-Edit them, then start a new session.
+Edit them, then restart the OMP process or Paseo agent. `/new` rebinds the already-prepared extension factory; it does not re-import the edited module.
 
 The rule and the reminder both hardcode the dsv4 model id `mp-tob/deepseek-v4.1-flash-tob`. That id is specific to this provider setup; outside this environment, replace it in both `rules/spur.md` and `index.ts` with your own model or role alias (for example `@task`).
 
